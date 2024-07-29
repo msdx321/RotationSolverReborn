@@ -279,18 +279,18 @@ partial class DarkKnightRotation
 
     static partial void ModifyScarletDeliriumPvE(ref ActionSetting setting)
     {
-        setting.StatusNeed = [StatusID.Delirium_1972];
+        setting.StatusNeed = [StatusID.Delirium_3836];
     }
 
     static partial void ModifyComeuppancePvE(ref ActionSetting setting)
     {
-        setting.StatusNeed = [StatusID.Delirium_1972];
+        setting.StatusNeed = [StatusID.Delirium_3836];
         setting.ComboIds = [ActionID.ScarletDeliriumPvE];
     }
 
     static partial void ModifyTorcleaverPvE(ref ActionSetting setting)
     {
-        setting.StatusNeed = [StatusID.Delirium_1972];
+        setting.StatusNeed = [StatusID.Delirium_3836];
         setting.ComboIds = [ActionID.ComeuppancePvE];
     }
 
